@@ -18,7 +18,7 @@ int main(int argc, char const *argv[])
     int arr[numberElements];
     for (int i = 0; i < numberElements; i++)
     {
-        cout << "a[" << i << setw(5) << left <<  "] " << setw(7) << left << "= ";
+        cout << "a[" << i << setw(5) << left << "] " << setw(7) << left << "= ";
         cin >> arr[i];
     }
     double mediansValue = medians(arr, numberElements);
