@@ -2,7 +2,7 @@
 #include "iomanip"
 using namespace std;
 
-int *reverseArray(int *arr, int size);
+int *reverseArray(int arr[], int size);
 bool checkInput(int inputValue);
 
 int main(int argc, char const *argv[])
